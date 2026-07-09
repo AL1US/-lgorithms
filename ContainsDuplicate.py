@@ -18,7 +18,7 @@ class Solution:
                     right = len(nums) - 1
         return False
 
-# O(n) - хеш таблица)
+# хеш таблица
 class Solution:
     def containsDuplicate(self, nums: List[int]) -> bool:
         hash_table = set()
